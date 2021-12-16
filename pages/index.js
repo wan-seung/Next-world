@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -20,17 +20,21 @@ export default function Home() {
         <div className="grid">
           <a href="http://localhost:3000/static" className="card">
             <h3>getStaticProps &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <p>getStaticProps Test</p>
           </a>
 
-          <a href="http://localhost:3000/serverside" className="card">
+          <a href="http://localhost:3000/server" className="card">
             <h3>getServerSideProps &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>getServerSideProps Test</p>
           </a>
 
           <a href="http://localhost:3000/initialprops" className="card">
             <h3>Page.getInitialProps &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>Page.getInitialProps Test</p>
+          </a>
+          <a href="http://localhost:3000/todoList" className="card">
+            <h3>TodoList &rarr;</h3>
+            <p>TodoList page</p>
           </a>
           {/* 
           <a
